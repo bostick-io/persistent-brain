@@ -8,7 +8,7 @@ persistent-brain is the fix. The stable knowledge lives here in plain markdown, 
 
 ## The result
 
-Curated context instead of a copy-pasted project dump dropped my setup tokens from roughly 11,000 per session to about 3,000, a 73% cut, every session. The morning ritual of catching the assistant up basically went away, and I got back about 20 minutes a morning.
+Curated context instead of a copy-pasted project dump dropped my setup tokens from roughly 11,400 per session to about 2,700, a 76% cut, every session. The morning ritual of catching the assistant up basically went away, and I got back about 20 minutes a morning.
 
 I built this while working on ClockPoint, a ServiceNow app, but nothing here is ServiceNow-specific. Point it at any project and the pattern holds.
 
@@ -30,6 +30,12 @@ brain/
   cheatsheet.md       reused queries, snippets, gotchas
   timeline/           dated log of what changed, newest read first
 ```
+
+## brain/ vs templates/
+
+The `brain/` folder is my real, populated context for ClockPoint. It is the worked example, kept deliberately full of real detail, because that detail is what makes it useful to the agent and what shows the system actually works.
+
+The `templates/` folder is the blank version, same files and same shape. Copy it to start your own brain, then fill each file in as you go. Nothing in the templates is tied to ServiceNow or to ClockPoint.
 
 ## Why markdown over a tool
 
